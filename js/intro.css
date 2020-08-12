@@ -1,0 +1,14 @@
+body{
+    background-color: #000;
+    border:10px solid #808080;
+}
+#arena-selector{
+    
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+}
+.gallery a{
+    flex-basis: 33.33%;
+}

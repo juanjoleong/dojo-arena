@@ -1,0 +1,91 @@
+
+		body:before, body:after {
+		    content: "";
+		    position: fixed;
+		    background: #808080;
+		    left: 0;
+		    right: 0;
+		    height: 10px;
+		}
+		body:before {
+		    top: 0;
+		}
+		body:after {
+		    bottom: 0;
+		}
+		body {
+		    border-left: 10px solid #808080;
+			border-right: 10px solid #808080;
+			background-color: #000;  
+		}
+				
+		
+		/* Fairly small screens including iphones */
+		only screen and (max-width: 500px),
+		
+		/* iPads */
+		only screen and (min-device-width: 768px) and (max-device-width: 1024px) 
+		
+		{
+			body { border: 0; }
+			body:before, body:after { display: none; }
+		}
+
+.base-bg{
+	
+    background-size: 100%;	
+}
+.beach{
+	background-image: url("../images/beach.jpg");
+	background-size: 100%;	
+}
+.earth{
+	background-image: url("../images/earth.jpg");
+	background-size: 100%;	
+}
+.dojo{
+	background-image: url("../images/dojo.jpg");
+	background-size: 100%;	
+}
+.forest{
+	background-image: url("../images/forest.jpg");
+	background-size: 100%;	
+}
+.matrix{
+	background-image: url("../images/matrix.jpg");
+	background-size: 100%;	
+}
+.snow{
+	background-image: url("../images/snow.jpg");
+	background-size: 100%;	
+}
+
+h1{
+    color: #eca200;
+    font-size: 48px;
+    text-align: center;
+    text-shadow: 3px 2px 1px #fff;
+}
+.arena-selector{
+    max-width: 605px;
+    margin: auto;
+    background-color: #a3a4a6;
+    border: 10px solid #808080;
+    border-radius: 10px;
+}
+.buttons-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.buttons-container button{
+    width: 31.33%;
+	border-radius: 5px;
+	margin: 5px;
+	height: auto;
+	
+}
+.players-container{
+	display: flex;
+    justify-content: center;
+}
